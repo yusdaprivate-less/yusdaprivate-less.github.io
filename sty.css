@@ -1,0 +1,31 @@
+html {
+	height: 100%;
+	background: url(https://images.unsplash.com/photo-1568738351265-c7065f5d4293?w=900) 50%/ cover;
+}
+
+.navbarr {
+    width: 50%;
+    position: fixed; /* Membuat navbar tetap */
+    top: 5px; /* Jarak padding atas 5 piksel */
+    left: 25%; /* Menempatkan navbar di tengah */
+    background-color: #333; /* Warna latar belakang navbar */
+    color: #fff; /* Warna teks pada navbar */
+    padding: 10px; /* Ruang bantal di dalam navbar */
+  }
+
+nav{
+	width: 50%;
+	z-index: 999;
+	top: 8px;
+    left: 25%;
+	background: rgba(0,0,0,.1);
+	backdrop-filter: blur(50px);
+	border-radius: 25px 25px 25px 25px;
+	}
+
+	@media (max-width: 768px) {
+		nav {
+			width: 90%; /* Mengisi sekitar 90% dari lebar layar */
+			left: 5%; /* Memberikan sedikit jarak di sisi kiri */
+		  }
+	  }
